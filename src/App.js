@@ -15,10 +15,7 @@ function App() {
                     <Charts />
                     <Table type="colleges" scrollY={500} />
                 </section>
-
-                <section className="right">
-                    <CollegeDetails />
-                </section>
+                <CollegeDetails />
             </main>
         </div>
     );

@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import axios from 'axios';
 
 import DonutChart from '../components/DonutChart';
-import { PieChartSkeleton, BarChartSkeleton } from '../components/SkeletonLoaders';
+import { PieChartSkeleton } from '../components/SkeletonLoaders';
 
 import { updateTableDataType } from '../store/actions';
 
@@ -30,7 +30,6 @@ const Charts = ({
             {loading
                 ? (
                     <div className="loader">
-                        <BarChartSkeleton />
                         <PieChartSkeleton />
                     </div>
                 ) : (

@@ -20,7 +20,7 @@ const DonutChart = ({
                 },
                 chart: {
                     type: 'donut',
-                    fontFamily: 'Avenir, Courier, monospace',
+                    fontFamily: 'Poppins',
                     events: {
                         dataPointSelection(chartContext, seriesIndex, config) {
                             window.scrollTo(0, document.body.scrollHeight / 4);

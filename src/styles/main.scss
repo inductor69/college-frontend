@@ -21,7 +21,7 @@
 .App {
     main {
         display: flex;
-        
+
         .left {
             width: 75%;
             padding: 0 40px;
@@ -46,10 +46,10 @@
                 padding: 0 10px;
             }
         }
-        
+
         .right {
             width: 25%;
-            
+
             @media (max-width: 1600px) {
                 width: 30%;
             }
