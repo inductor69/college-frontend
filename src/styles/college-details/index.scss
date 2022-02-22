@@ -1,0 +1,16 @@
+.college-details {    
+    margin: 40px 40px 40px 0;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #fff;
+    min-height: 85vh;
+    
+    // College Info
+    @import './info.css';
+
+    // College Stats
+    @import './stats.css';
+
+    // Student Details
+    @import './student-details/card.css';
+}
